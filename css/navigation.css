@@ -1,0 +1,42 @@
+@import url('/css/budui.css');
+
+.nav-bar{
+    display: flex;
+    background-color: var(--primary-color);
+    color: #fff;
+    justify-content: space-between;
+    padding: 1.5em 2em;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.brand-title{
+    font-size: 2rem;
+    font-weight:bold;
+
+}
+
+.list-non-bulit{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.list-item{
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+
+}
+.link-active{
+    background-color:rgb(219,234,254,0.60);
+}
