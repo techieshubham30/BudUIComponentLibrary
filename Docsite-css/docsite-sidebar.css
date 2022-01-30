@@ -1,0 +1,43 @@
+
+
+.sidebar{
+    width: 18%;
+    overflow-y: scroll;
+    height:80vh;
+    position: sticky;
+    top: 0rem;
+}
+
+.sidebar-item-links{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    /* border: 1px solid red; */
+}
+
+.sidebar-item-link{
+    padding: 0.8rem 3rem 0.8rem 3rem;
+
+}
+.sidebar-item-link:hover{
+
+    background-color: var(--hover-color);
+    
+}
+
+.sidebar-title{
+    margin:2em 0 1.5em 0;
+    padding-left: 3rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+
+.current-item{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+

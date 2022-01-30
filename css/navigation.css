@@ -1,5 +1,4 @@
 @import url('/css/budui.css');
-
 .nav-bar{
     display: flex;
     background-color: var(--primary-color);
@@ -38,5 +37,5 @@
 
 }
 .link-active{
-    background-color:rgb(219,234,254,0.60);
+    background-color:var(--hover-color);
 }

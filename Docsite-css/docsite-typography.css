@@ -1,0 +1,23 @@
+.component-title{
+    font-size:3rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.90;
+}
+
+.title-intro{
+    font-size: 1.5rem;
+    font-weight: 300;
+    opacity: 0.80;
+    margin-bottom: 1.5rem;
+}
+
+.component-example{
+    font-size: 2rem;
+    margin-bottom:0.5rem ;
+    opacity: 0.90;
+}
+
+.about-component{
+    font-size: 1.2rem;
+    opacity: 0.80;
+}

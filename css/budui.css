@@ -11,7 +11,14 @@
 body{
     font-size: 1rem;
 }
+
 :root{
     --primary-color:#4F46E5;
+    --hover-color:rgb(219,234,254,0.60)
     
+}
+
+img{
+    width: 100%;
+    display: inline-block;
 }
