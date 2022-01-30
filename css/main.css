@@ -1,0 +1,85 @@
+@import url('/css/budui.css');
+
+img{
+    max-width: 100%;
+    display: inline-block;
+    opacity: 0.90;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4em;
+}
+
+.text-container{
+    width: 40%;
+    padding-top: 0.5rem;
+    
+}
+
+.title{
+    font-size: 2rem;
+    color:var(--primary-color);
+    margin-bottom: 1em;
+    
+}
+
+.title-body{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.90px;
+    margin-bottom: 2em;
+    opacity: 0.80;
+}
+
+.home-image{
+    width: 50%;
+}
+
+.btn-group{
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    margin: 1em 1em 0.5em 0;
+}
+
+.btn-primary{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+
+.btn-secondary{
+    color:#fff;
+    background-color: var(--primary-color);
+}
+
+.btn-primary:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.btn-secondary:hover{
+    opacity: 0.90;
+}
+@media(max-width:500px) {
+    .container{
+        flex-direction:column;
+    }
+    .text-container{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .title{
+        margin-bottom: 0.5em;
+    }
+    .home-image{
+        width: 100%;
+
+    }
+}
