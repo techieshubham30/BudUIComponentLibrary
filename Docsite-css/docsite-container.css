@@ -8,8 +8,15 @@
 }
 
 .component-display-container{
-    padding:3rem 0 2rem 0;
+    padding: 2rem;
     display: flex;
     align-items: flex-end;
     gap: 1rem;
+    border: 2px solid var(--docsite-border-color);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.badge-icon-display{
+    gap: 3rem;
 }
