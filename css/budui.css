@@ -6,6 +6,7 @@
 @import url('/css/navigation.css');
 @import url('/Components/Avatar/avatar.css');
 @import url('/Components/Badge/badge.css');
+@import url('/Components/Alert/alert.css');
 
 *{
     margin: 0;
@@ -27,6 +28,9 @@ body{
     --hover-color:rgb(219,234,254,0.60);
     --docsite-border-color:#E6E6E6;
     --accent-color:#FD7014;
+    --secondary-text-color:#fff;
+    --light-black:rgb(0,0,0,0.80);
+
 }
 
 img{

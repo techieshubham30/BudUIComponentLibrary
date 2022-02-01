@@ -1,0 +1,46 @@
+.alert{
+    border: 1px solid var(--dicsite-border-color);
+    padding: 1rem 2.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    color:var(--secondary-text-color);
+    position: relative;
+
+}
+
+.alert-icon{
+    margin-right: 0.6em;
+    width: 1em;
+    height: 1em;
+}
+
+.alert-primary{
+    background-color: var(--primary-color);
+}
+.alert-secondary{
+    background-color: var(--secondary-color);
+}
+
+.alert-success{
+    background-color: var(--success-color);
+}
+
+.alert-danger{
+    background-color: var(--danger-color);
+}
+.alert-warning{
+    background-color: var(--warning-color);
+}
+
+.alert-close-button{
+    position:absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 1.2rem;
+}
+
+.alert-close-button:hover{
+    color: var(--light-black);
+    cursor: pointer;
+}
