@@ -8,7 +8,7 @@
 
 .status-badge{
     border-radius: 50%;
-    border: 2px solid #fff;
+    border: 2px solid var(--secondary-text-color);
     position:absolute;
     
 }
@@ -50,7 +50,7 @@
     height: 1.2rem;
     border-radius: 50%;
     background-color: var(--accent-color);
-    color: #fff;
+    color: var(--secondary-text-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +65,7 @@
 }
 
 .badge{
-    color: #fff;
+    color:var(--secondary-text-color);
     padding: 0.5rem 1.5rem;
     font-weight: bold;
 }

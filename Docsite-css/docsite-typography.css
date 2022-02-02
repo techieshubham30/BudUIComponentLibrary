@@ -19,6 +19,11 @@
     opacity: 0.90;
     color: var(--primary-color);
 }
+.componet-example-sub-title{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    opacity: 0.90;
+}
 
 .about-component{
     font-size: 1.2rem;

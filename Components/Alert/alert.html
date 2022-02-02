@@ -71,116 +71,121 @@
 
         <section class="component-container">
             <div class="intro">
-                <h1 class="component-title">Badges</h1>
-                <p class="title-intro"> Badges are used to display an item's current status for quick recognition.</p>
+                <h1 class="component-title">Alert</h1>
+                <p class="title-intro">
+                    Alert messages can be used to notify the user about something special: danger, success, information
+                    or warning.
+                </p>
             </div>
-
-            <h2 class="component-example">Example of Badge on Avatar</h2>
+            <h2 class="component-example">Example of Alert without icons</h2>
             <p class="about-component">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus tempora delectus
                 odio sint rerum dolorum in iure illo facere aperiam?
             </p>
 
-            <div class="component-display-container">
-                <div class="badge-container">
-                    <div class="avatar avatar-lg-size">
-                        <img src="/images/avatar1.jpg" alt="avatar image">
-                    </div>
-                    <span class="status-badge status-online"></span>
+            <div class="component-display-container display-flex-column">
+                <div class="alert alert-primary">
+                    A simple primary alert
                 </div>
-
-                <div class="badge-container">
-                    <div class="avatar avatar-md-size">
-                        <img src="/images/avatar1.jpg" alt="avatar image">
-                    </div>
-                    <span class="status-badge status-offline"></span>
+                <div class="alert alert-secondary">
+                    A simple secondary alert
                 </div>
-
-                <div class="badge-container">
-                    <div class="avatar avatar-sml-size">
-                        <img src="/images/avatar1.jpg" alt="avatar image">
-                    </div>
-                    <span class="status-badge status-online"></span>
+                <div class="alert alert-success">
+                    A simple success alert
                 </div>
-
-            </div>
-
-            <div class="code-snippet-container">
-
-                <iframe src="https://carbon.now.sh/embed/pjQ5haKFTJ8BAM6z0NxX"
-                    style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-
-            <h2 class="component-example">Example of Badge on Icons</h2>
-            <p class="about-component">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus tempora delectus
-                odio sint rerum dolorum in iure illo facere aperiam?
-            </p>
-
-            <div class="component-display-container badge-icon-display">
-                <div class="badge-container">
-                    <i class="fas fa-shopping-cart"></i>
-                    <span class="badge-icon">5</span>
+                <div class="alert alert-danger">
+                    A simple danger alert
                 </div>
-                <div class="badge-container">
-                    <i class="fas fa-envelope"></i>
-                    <span class="badge-icon">6</span>
-                </div>
-
-                <div class="badge-container">
-                    <i class="fas fa-bell"></i>
-                    <span class="badge-icon">7</span>
-                </div>
-
-            </div>
-
-            <div class="code-snippet-container">
-                <iframe src="https://carbon.now.sh/embed/nr6RTLwPgGJiLJ9pOaWh"
-                    style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                </iframe>
-
-            </div>
-            <h2 class="component-example">Example of Badge with colors</h2>
-            <p class="about-component">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus tempora delectus
-                odio sint rerum dolorum in iure illo facere aperiam?
-            </p>
-
-            <div class="component-display-container">
-                <div class="badge bg-primary">
-                    <span>Primary</span>
-                </div>
-
-                <div class="badge bg-secondary">
-                    <span>Secondary</span>
-                </div>
-                <div class="badge bg-success">
-                    <span>Success</span>
-
-                </div>
-
-                <div class="badge bg-danger">
-                    <span>Danger</span>
-
-                </div>
-
-                <div class="badge bg-warning">
-                    <span>Warning</span>
-
+                <div class="alert alert-warning">
+                    A simple warning alert
                 </div>
             </div>
 
             <div class="code-snippet-container">
                 <iframe
-                src="https://carbon.now.sh/embed/3ldAlgDaiV9rIUCPr1y2"
+                src="https://carbon.now.sh/embed/frIIY7DeS2V6iM8uexGz"
+                style="border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+
+            <h2 class="component-example">Example of Alert with icons</h2>
+            <p class="about-component">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus tempora delectus
+                odio sint rerum dolorum in iure illo facere aperiam?
+            </p>
+
+            <div class="component-display-container display-flex-column">
+               
+                <div class="alert alert-success">
+                    <span class="alert-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </span>
+                  
+                    A simple success alert
+                </div>
+                <div class="alert alert-danger">
+                    <span class="alert-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </span>
+                   
+                    A simple danger alert
+                </div>
+                <div class="alert alert-warning">
+                    <span class="alert-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </span>
+                    A simple warning alert
+                </div>
+            </div>
+
+            
+            <div class="code-snippet-container">
+                <iframe
+                src="https://carbon.now.sh/embed/J9IrQYz5M1fLnUEE4860"
+                style="border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+
+            <h2 class="component-example">Example of Alert with close button</h2>
+            <p class="about-component">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus tempora delectus
+                odio sint rerum dolorum in iure illo facere aperiam?
+            </p>
+
+            <div class="component-display-container display-flex-column">
+                <div class="alert alert-close alert-danger">
+                    <span class="alert-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </span>
+                   
+                    A simple danger alert
+                    <span class="alert-close-button">
+                        <i class="fas fa-times"></i>
+                    </span>
+                   
+                </div>
+
+            </div>
+
+            <div class="code-snippet-container">
+                <iframe
+                src="https://carbon.now.sh/embed/mlddS9lSe9UFUcRDAs6p"
+                style="border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+             <h3 class="componet-example-sub-title">JavaScript</h3>
+            <div class="code-snippet-container">
+                <iframe
+                src="https://carbon.now.sh/embed/1rLb4GLnqksIdJDkQAsh"
                 style="border:0; transform: scale(1); overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
               </iframe>
             </div>
 
 
-
         </section>
     </div>
-
+<script src="/Components/Alert/alert.js"></script>
 </body>
 
 </html>
