@@ -89,3 +89,7 @@
 .bg-warning{
     background-color: var(--warning-color);
 }
+
+.round-pill-badge{
+    border-radius: 50rem;
+}
