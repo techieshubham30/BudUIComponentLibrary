@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('/css/main.css');
+@import url('/css/footer.css');
 @import url('/Docsite-css/docsite-codesnippet.css');
 @import url('/Docsite-css/docsite-container.css');
 @import url('/Docsite-css/docsite-sidebar.css');
@@ -8,6 +10,7 @@
 @import url('/Components/Badge/badge.css');
 @import url('/Components/Alert/alert.css');
 @import url('/Components/Button/button.css');
+@import url('/Components/card/card.css');
 
 *{
     margin: 0;
@@ -38,5 +41,6 @@ body{
 
 img{
     width: 100%;
+    height: auto;
     display: inline-block;
 }

@@ -1,0 +1,128 @@
+.vertical-card{
+    max-width: 300px;
+    width: 100%;
+    position: relative;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image-container{
+    margin-bottom: 1em;
+}
+
+.card-image-container img{
+    border-radius: 0.3rem;
+}
+
+
+.card-text-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem 0 1rem;
+}
+
+.card-title{
+    position: relative;
+    opacity: 0.90;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.2em;
+}
+
+
+
+
+.card-sub-title{
+    opacity: 0.80;
+    margin-bottom: 1em;
+}
+
+.about-card{
+    margin-bottom: 2em;
+    opacity: 0.90;
+}
+
+.like-btn,.share-icon{
+    position: absolute;
+    right: 2rem;
+    border: none;
+    font-size: 1.2rem;
+    opacity: 0.90;
+}
+
+.card-action-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+
+
+.horizontal-card{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.3rem;
+
+}
+
+.horizontal-card .card-image-container{
+    width: 130px;
+    height: 150px;
+
+}
+
+.horizontal-card .card-text-container{
+    width: calc(100% - 130px);
+}
+
+.horizontal-card .card-text-container{
+    padding: 1rem;
+}
+
+.vertical-card .badge{
+    position: absolute;
+    top: 1rem;
+    border-radius: 0.3rem;
+}
+
+.dismiss-btn{
+    position:absolute;
+    right: 2rem;
+    top: 1rem;
+    font-size: 1.5rem;
+    color: var(--light-black);
+    padding: 0.5rem;
+    border-radius: 50%;
+    border: 0.2px solid var(--light-black);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.overlay-item{
+    position:absolute;
+    bottom:6rem;
+}
+
+.text-only-card{
+    border-radius: 0.3rem;
+    padding: 1rem;
+    max-width: 400px;
+}
+
+.text-only-card .card-action-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    opacity: 0.80;
+}
+
+.shadow-box{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    border: none;
+}
