@@ -1,8 +1,11 @@
 @import url('/css/budui.css');
+
+header{
+    background-color: var(--primary-color);
+}
 .nav-bar{
     display: flex;
-    background-color: var(--primary-color);
-    color: #fff;
+    color: var(--secondary-text-color);
     justify-content: space-between;
     padding: 1.5em 2em;
 }

@@ -54,6 +54,7 @@ img{
 @media(max-width:500px) {
     .container{
         flex-direction:column;
+        padding: 1.5rem;
     }
     .text-container{
         width: 100%;
@@ -66,4 +67,5 @@ img{
         width: 100%;
 
     }
+
 }

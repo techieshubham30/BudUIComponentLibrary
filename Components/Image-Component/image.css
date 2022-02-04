@@ -1,0 +1,25 @@
+.responsive-img {
+    width: 100%;
+    height: auto;
+}
+
+.round-img {
+    border-radius: 50%;
+}
+
+.img-lg {
+    width: 10rem;
+    height: 10rem;
+}
+
+.img-mdm {
+    width: 7rem;
+    height: 7rem;
+
+}
+
+.img-sml {
+    width: 5rem;
+    height: 5rem;
+
+}
