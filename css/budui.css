@@ -11,6 +11,8 @@
 @import url('/Components/Alert/alert.css');
 @import url('/Components/Button/button.css');
 @import url('/Components/card/card.css');
+@import url('/Components/Image-Component/image.css');
+@import url('/Components/Input/input.css');
 
 *{
     margin: 0;

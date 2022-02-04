@@ -1,0 +1,62 @@
+.input{
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: 2px solid var(--dark-grey);
+    outline: none;
+    font-size: 1rem;
+}
+
+.input:focus{
+    box-shadow: 0 0 0 1px var(--primary-color);
+}
+
+.input-label{
+    margin-bottom: 0.3rem;
+    font-size: 1.2rem;
+}
+
+
+.text-box{
+    margin-bottom: 1rem;
+}
+
+
+.input-success-validation{
+    border: 2px solid var(--success-color);
+    border-radius: 0.3rem;
+    padding: 0 0.5rem;
+    box-shadow: 0 0 0 1px var(--success-color);
+    margin-bottom: 0.3rem;
+}
+
+.input-success-validation .fa-check-circle{
+    color: var(--success-color);
+}
+.input-success-validation input[type="text"], .input-error-validation input[type="text"]{
+    border: none;
+    padding: 0.5rem;
+    outline: none;
+   font-size: 1rem;
+}
+
+.valid-text-message{
+    color: var(--success-color);
+    font-size: 1rem;
+}
+
+.input-error-validation{
+    border: 2px solid var(--danger-color);
+    border-radius: 0.3rem;
+    padding: 0 0.5rem;
+    box-shadow: 0 0 0 1px var(--danger-color);
+    margin-bottom: 0.3rem;
+}
+
+.input-error-validation .fa-times-circle{
+    color: var(--danger-color);
+}
+.error-text-message{
+    color: var(--danger-color);
+    font-size: 1rem;
+}
+
