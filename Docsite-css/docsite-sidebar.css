@@ -41,3 +41,21 @@ a{
     font-weight: bold;
 }
 
+@media(max-width:700px){
+    .sidebar.active{
+        display: block;
+        background-color: var(--primary-color);
+        z-index: 2;
+        height: calc(100vh - 1rem);
+        color: var(--secondary-text-color);
+        position: fixed;
+        
+    }
+    .sidebar.active a{
+        color: var(--secondary-text-color);
+    }
+    .sidebar{
+        display: none;
+    }
+}
+
