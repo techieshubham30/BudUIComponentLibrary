@@ -1,0 +1,40 @@
+
+.list-container{
+    margin: 0 3rem 3rem 0;
+}
+
+.styled-list li{
+    margin-bottom: 0.6rem;
+}
+
+.list-style-small-alpha{
+    list-style: lower-alpha;
+}
+
+.list-style-capital-alpha{
+    list-style:upper-alpha;
+}
+
+.list-style-small-roman{
+    list-style: lower-roman;
+}
+
+.list-style-capital-roman{
+    list-style: upper-roman;
+}
+
+.list-style-circle{
+    list-style: circle;
+}
+
+.list-style-square{
+    list-style: square;
+}
+
+.list-style-non{
+    list-style: none;
+}
+
+.stacked-list li{
+    margin-bottom: 1.3rem;
+}
