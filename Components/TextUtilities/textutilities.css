@@ -1,0 +1,51 @@
+.h1{
+    font-size: 3rem;
+}
+
+.h2{
+    font-size: 2.5rem;
+}
+
+.h3{
+    font-size: 2rem;
+}
+
+.h4{
+    font-size:1.6rem;
+}
+
+.h5{
+    font-size: 1.3rem;
+}
+
+.h6{
+    font-size: 1rem;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.right-text{
+    text-align: right;
+}
+
+.xlg-text{
+    font-size: 1.8rem;
+}
+
+.lg-text{
+    font-size: 1.5rem;
+}
+
+.mdm-text{
+    font-size: 1rem;
+}
+
+.sml-text{
+    font-size: 0.80rem;
+}
+
+.grey-text{
+    color: var(--grey-color);
+}
