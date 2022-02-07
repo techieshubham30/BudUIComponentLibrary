@@ -33,8 +33,12 @@ img{
     opacity: 0.80;
 }
 
-.home-image{
+.home-image,.code-container{
     width: 50%;
+}
+
+.code-container iframe{
+    width: 100%;
 }
 
 .btn-group{
@@ -63,7 +67,7 @@ img{
     .title{
         margin-bottom: 0.5em;
     }
-    .home-image{
+    .home-image,.code-container{
         width: 100%;
 
     }

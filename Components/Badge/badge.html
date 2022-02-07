@@ -22,13 +22,18 @@
             </div>
             <div class="nav-right">
                 <ul class="list-non-bulit list">
-                    <li class="list-item link-active">
+                    <li class="list-item">
                         <a href="/index.html" class="nav-link">Home</a>
                     </li>
-                    <li class="list-item">
+                    <li class="list-item link-active">
                         <a href="#" class="nav-link">Docs</a>
                     </li>
                 </ul>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </nav>
     </header>
@@ -38,10 +43,10 @@
             <h2 class="sidebar-title">Components</h2>
             <ul class="sidebar-item-links">
                 <li class="sidebar-item-link ">
-                    <a href="/Components/Avatar/avatar.html" class="current-item">Avatar</a>
+                    <a href="/Components/Avatar/avatar.html">Avatar</a>
                 </li>
                 <li class="sidebar-item-link">
-                    <a href="/Components/Badge/badge.html">Badge</a>
+                    <a href="/Components/Badge/badge.html"  class="current-item">Badge</a>
 
                 </li>
                 <li class="sidebar-item-link">
@@ -76,8 +81,8 @@
             </div>
 
             <h2 class="component-example">Example of Badge on Avatar</h2>
-            <p class="about-component">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus tempora delectus
-                odio sint rerum dolorum in iure illo facere aperiam?
+            <p class="about-component">
+                Badge on avatar can be used to show the online status of user.
             </p>
 
             <div class="component-display-container">
@@ -112,8 +117,8 @@
             </div>
 
             <h2 class="component-example">Example of Badge on Icons</h2>
-            <p class="about-component">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus tempora delectus
-                odio sint rerum dolorum in iure illo facere aperiam?
+            <p class="about-component">
+                Number badges can be used to show notification count.
             </p>
 
             <div class="component-display-container badge-icon-display">
@@ -140,8 +145,8 @@
 
             </div>
             <h2 class="component-example">Example of Badge with colors</h2>
-            <p class="about-component">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus tempora delectus
-                odio sint rerum dolorum in iure illo facere aperiam?
+            <p class="about-component">
+                You can use badge with diffrent colors. To use badges add badge class. And to use diffrent colors add class bg-primary, bg-success, bg-danger and bg-warning.
             </p>
 
             <div class="component-display-container">
@@ -174,23 +179,23 @@
                 </iframe>
             </div>
             <h2 class="component-example">Example of Text Badge</h2>
-            <p class="about-component">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus tempora delectus
-                odio sint rerum dolorum in iure illo facere aperiam?
+            <p class="about-component">
+              We have two diffrent types of text badges. Badge with square edges and rounded edges.
             </p>
 
             <div class="component-display-container display-flex-column">
-                <h2>Example of Heading with Badge
+                <h2 class="badge-container">Example of Heading with Badge
                     <span class="badge bg-secondary">New</span>
                 </h2>
-                <h3>Example of Heading with Badge <span class="badge bg-secondary">New</span>
+                <h3 class="badge-container">Example of Heading with Badge <span class="badge bg-secondary">New</span>
                 </h3>
-                <h4>Example of Heading with Badge <span class="badge bg-secondary round-pill-badge">New</span>
+                <h4 class="badge-container">Example of Heading with Badge <span class="badge bg-secondary round-pill-badge">New</span>
                 </h4>
-                <h5>Example of Heading with Badge <span class="badge bg-primary">New</span>
+                <h5 class="badge-container">Example of Heading with Badge <span class="badge bg-primary">New</span>
                 </h5>
-                <h6>Example of Heading with Badge <span class="badge bg-primary">New</span>
+                <h6 class="badge-container">Example of Heading with Badge <span class="badge bg-primary">New</span>
                 </h6>
-                <p>Example of Paragraph with Badge <span class="badge bg-primary round-pill-badge">New</span>
+                <p class="badge-container">Example of Paragraph with Badge <span class="badge bg-primary round-pill-badge">New</span>
                 </p>
             </div>
 
@@ -200,13 +205,10 @@
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
-
-
-
-
         </section>
     </div>
 
+    <script src="/Docsite-js/navigation.js"></script>
 </body>
 
 </html>
