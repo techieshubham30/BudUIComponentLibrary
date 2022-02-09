@@ -72,7 +72,7 @@
                 </li>
 
                 <li class="sidebar-item-link">
-                    <a href="/Components/TextUtilities/textutilities.html" class="current-item">Text Utilities</a>
+                    <a href="/Components/TextUtilities/textutilities.html">Text Utilities</a>
 
                 </li>
                 <li class="sidebar-item-link">
@@ -84,7 +84,7 @@
 
                 </li>
                 <li class="sidebar-item-link">
-                    <a href="/Components/Rating/rating.html">Rating</a>
+                    <a href="/Components/Rating/rating.html" class="current-item">Rating</a>
 
                 </li>
             </ul>
@@ -92,89 +92,66 @@
 
         <section class="component-container">
             <div class="intro">
-                <h1 class="component-title">Text Utilities</h1>
+                <h1 class="component-title">Rating</h1>
                 <p class="title-intro">
-                    Text Utilities component includes headings, text, paragraphs with diffrent alignments and sizes.
+                    Ratings are used to provide user's opinion and feedback about any product.
                 </p>
             </div>
 
-            <h2 class="component-example">Example of Headings</h2>
+            <h2 class="component-example">Example of read-only ratings</h2>
             <p class="about-component">
-              Heading is available in six diffrent sizes. Copy the code below and you are good to go.
-            </p>
-
-            <div class="component-display-container display-flex-column">
-                <h1 class="h1">H1-Heading</h1>
-                <h2 class="h2">H2-Heading</h2>
-                <h3 class="h3">H3-Heading</h3>
-                <h4 class="h4">H4-Heading</h4>
-                <h5 class="h5">H5-Heading</h5>
-                <h6 class="h6">H6-Heading</h6>
-            </div>
-
-            <div class="code-snippet-container">
-                <iframe src="https://carbon.now.sh/embed/lA2vRPAdyK8jwkH8jCeq"
-                    style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-
-            <h2 class="component-example">Example of Text Alignment</h2>
-            <p class="about-component">
-             To provide alignment to your text. Add class left-text, right-text, center-text to your element.
-            </p>
-
-            <div class="component-display-container display-flex-column">
-                <h1 class="h1 left-text">Text align left</h1>
-                <h2 class="h2 center-text">Text align center</h2>
-                <h3 class="h3 right-text">Text align right</h3>
-            </div>
-
-            <div class="code-snippet-container">
-                <iframe src="https://carbon.now.sh/embed/np2zVQB8MH27AyKBHXpu"
-                    style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-            <h2 class="component-example">Example of Paragraph text with diffrent sizes</h2>
-            <p class="about-component">
-              To provide diffrent sizes to your text. Add class xlg-text, lg-text, mdm-text, sml-text to your element.
-            </p>
-
-            <div class="component-display-container display-flex-column">
-                <p class="xlg-text">Extra large text</p>
-                <p class="lg-text">Large text</p>
-                <p class="mdm-text">Medium text</p>
-                <p class="sml-text">Small text</p>
-            </div>
-
-            <div class="code-snippet-container">
-                <iframe src="https://carbon.now.sh/embed/Iuwsd3PPKcZa6BEA6Hnd"
-                    style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                </iframe>
-
-            </div>
-
-            <h2 class="component-example">Example of Grey text</h2>
-            <p class="about-component">
-            To provide grey text color to your element. Add class grey-text to your element.
+            To use read only rating. Copy the code below and you are good to go.
             </p>
 
             <div class="component-display-container">
-                <p class="xlg-text grey-text">Example of grey text</p>
+                <div class="rating-container">
+                    <i class="fas fa-star fa-lg active-rating"></i>
+                    <i class="fas fa-star fa-lg active-rating"></i>
+                    <i class="fas fa-star fa-lg active-rating"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                </div>
 
             </div>
 
             <div class="code-snippet-container">
-                <iframe src="https://carbon.now.sh/embed/sOrQSzppuaiXx8SHZdHq"
+                <iframe src="https://carbon.now.sh/embed/FPis3WQwtC5WYTESDGqy"
+                    style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h2 class="component-example">Example of controlled ratings</h2>
+            <p class="about-component">
+             To use controlled rating. Copy the code below and you are good to go.
+            </p>
+
+            <div class="component-display-container">
+                <div class="rating-container">
+                    <i class="fas fa-star fa-lg rating-icon"></i>
+                    <i class="fas fa-star fa-lg rating-icon"></i>
+                    <i class="fas fa-star fa-lg rating-icon"></i>
+                    <i class="fas fa-star fa-lg rating-icon"></i>
+                    <i class="fas fa-star fa-lg rating-icon"></i>
+                </div>
+            </div>
+
+            <div class="code-snippet-container">
+                <iframe src="https://carbon.now.sh/embed/9ycKCdCYOCq9LjoXWbgT"
+                    style="border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <h3 class="componet-example-sub-title">JavaScript</h3>
+
+            <div class="code-snippet-container">
+                <iframe src="https://carbon.now.sh/embed/dRNT78QOERzFmoYFKu9a"
                     style="border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
 
-
-
-
         </section>
     </div>
+    <script src="/Components/Rating/rating.js"></script>
     <script src="/Docsite-js/navigation.js"></script>
 
 </body>

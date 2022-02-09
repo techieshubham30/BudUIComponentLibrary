@@ -15,6 +15,8 @@
 @import url('/Components/Input/input.css');
 @import url('/Components/TextUtilities/textutilities.css');
 @import url('/Components/List/list.css');
+@import url('/Components/Modal/modal.css');
+@import url('/Components/Rating/rating.css');
 
 *{
     margin: 0;
@@ -40,6 +42,8 @@ body{
     --light-black:rgb(0,0,0,0.80);
     --grey-color:#9A9A9A;
     --dark-grey:#343A40;
+    --active-rating-color:#ffb400;
+    --disabled-rating-color:rgb(0,0,0,0.30);
     
 
 }
