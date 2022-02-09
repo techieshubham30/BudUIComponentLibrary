@@ -1,0 +1,9 @@
+.rating-container{
+    display: flex;
+    gap: 0.4rem;
+    color: var(--disabled-rating-color);
+}
+
+.active-rating{
+    color: var(--active-rating-color);
+}

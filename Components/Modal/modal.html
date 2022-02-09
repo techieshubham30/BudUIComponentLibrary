@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +9,6 @@
     <link rel="stylesheet" href="/css/budui.css">
     <title>Bud UI | Docs</title>
 </head>
-
 <body>
     <header class="header">
         <nav class="nav-bar">
@@ -50,7 +48,7 @@
 
                 </li>
                 <li class="sidebar-item-link">
-                    <a href="/Components/Alert/alert.html"  class="current-item">Alert</a>
+                    <a href="/Components/Alert/alert.html">Alert</a>
 
                 </li>
                 <li class="sidebar-item-link">
@@ -70,6 +68,7 @@
                     <a href="/Components/Input/input.html">Input</a>
 
                 </li>
+
                 <li class="sidebar-item-link">
                     <a href="/Components/TextUtilities/textutilities.html">Text Utilities</a>
 
@@ -79,135 +78,111 @@
 
                 </li>
                 <li class="sidebar-item-link">
-                    <a href="/Components/Modal/modal.html">Modal</a>
+                    <a href="/Components/Modal/modal.html" class="current-item">Modal</a>
 
                 </li>
                 <li class="sidebar-item-link">
                     <a href="/Components/Rating/rating.html">Rating</a>
 
                 </li>
-
             </ul>
         </aside>
 
         <section class="component-container">
             <div class="intro">
-                <h1 class="component-title">Alert</h1>
+                <h1 class="component-title">Modal</h1>
                 <p class="title-intro">
-                    Alert messages can be used to notify the user about something special: danger, success, information
-                    or warning.
+                    A modal is a dialog box/popup window that is displayed on top of the current page. It gets closed only when closed button on modal is clicked.
                 </p>
             </div>
-            <h2 class="component-example">Example of Alert without icons</h2>
+
+            <h2 class="component-example">Example of Modal</h2>
             <p class="about-component">
-                Alerts are available in 5 diffrent types- primary alert, secondary alert, success alert, danger alert, warning alert. Copy the below code and you are good to go.
+                
             </p>
 
-            <div class="component-display-container display-flex-column">
-                <div class="alert alert-primary">
-                    A simple primary alert
-                </div>
-                <div class="alert alert-secondary">
-                    A simple secondary alert
-                </div>
-                <div class="alert alert-success">
-                    A simple success alert
-                </div>
-                <div class="alert alert-danger">
-                    A simple danger alert
-                </div>
-                <div class="alert alert-warning">
-                    A simple warning alert
-                </div>
-            </div>
+            <div class="component-display-container">
+                <div class="modal shadow-box">
 
-            <div class="code-snippet-container">
-                <iframe
-                src="https://carbon.now.sh/embed/frIIY7DeS2V6iM8uexGz"
-                style="border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-              </iframe>
-            </div>
-
-            <h2 class="component-example">Example of Alert with icons</h2>
-            <p class="about-component">
-                To use alert with icons. Copy the below code and you are good to go.
-            </p>
-
-            <div class="component-display-container display-flex-column">
-               
-                <div class="alert alert-success">
-                    <span class="alert-icon">
-                        <i class="fas fa-check-circle"></i>
-                    </span>
-                  
-                    A simple success alert
-                </div>
-                <div class="alert alert-danger">
-                    <span class="alert-icon">
-                        <i class="fas fa-exclamation-triangle"></i>
-                    </span>
-                   
-                    A simple danger alert
-                </div>
-                <div class="alert alert-warning">
-                    <span class="alert-icon">
-                        <i class="fas fa-exclamation-triangle"></i>
-                    </span>
-                    A simple warning alert
-                </div>
-            </div>
-
-            
-            <div class="code-snippet-container">
-                <iframe
-                src="https://carbon.now.sh/embed/J9IrQYz5M1fLnUEE4860"
-                style="border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-              </iframe>
-            </div>
-
-            <h2 class="component-example">Example of Alert with close button</h2>
-            <p class="about-component">
-                We can have cross icon to close the alert. Copy the below HTML and JS code and you are good to go.
-            </p>
-
-            <div class="component-display-container display-flex-column">
-                <div class="alert alert-close alert-danger">
-                    <span class="alert-icon">
-                        <i class="fas fa-exclamation-triangle"></i>
-                    </span>
-                   
-                    A simple danger alert
-                    <span class="alert-close-button">
+                    <sapn class="modal-close-btn">
                         <i class="fas fa-times"></i>
-                    </span>
-                   
+
+                    </sapn>
+                    <div class="modal-text-container">
+                        <h1 class="modal-title">Modal Title</h1>
+                        <p class="modal-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim delectus, soluta eaque sunt corporis distinctio vero consectetur quidem. Velit cumque assumenda incidunt, fuga ea provident tenetur quis quisquam totam nesciunt.
+                        </p>
+                    </div>
+
+                    <div class="modal-btns">
+                        <button class="btn accept-btn">Accept</button>
+                        <button class="btn decline-btn">Decline</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="code-snippet-container">
+                <iframe
+                src="https://carbon.now.sh/embed/WQP2DxJZhr3XouETVQiq"
+                style="border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+            <h2 class="component-example">Live Demo</h2>
+            <p class="about-component">
+                Click the below button to open modal. To close the pop-up, click on the decline button or close icon.
+            </p>
+            <div class="component-display-container">
+                <!-- Button  to open the modal -->
+                <button class="modal-click-btn btn btn-primary" id="example-modal-click-btn">
+                    Click me
+                </button>
+
+            </div>
+            
+            <!-- Modal -->
+            <div class="modal shadow-box hide" id="example-modal">
+
+                <span class="modal-close-btn" id="example-modal-close-btn">
+                    <i class="fas fa-times"></i>
+
+                </span>
+                <div class="modal-text-container">
+                    <h1 class="modal-title">Modal Title</h1>
+                    <p class="modal-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim delectus, soluta eaque sunt corporis distinctio vero consectetur quidem. Velit cumque assumenda incidunt, fuga ea provident tenetur quis quisquam totam nesciunt.
+                    </p>
                 </div>
 
+                <div class="modal-btns">
+                    <button class="btn accept-btn">Accept</button>
+                    <button class="btn decline-btn" id="example-modal-decline">Decline</button>
+                </div>
             </div>
 
             <div class="code-snippet-container">
                 <iframe
-                src="https://carbon.now.sh/embed/mlddS9lSe9UFUcRDAs6p"
+                src="https://carbon.now.sh/embed/8VPgeQjAif4VzReT1JrY"
                 style="border:0; transform: scale(1); overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
               </iframe>
             </div>
-             <h3 class="componet-example-sub-title">JavaScript</h3>
+
+            <h3 class="componet-example-sub-title">JavaScript</h3>
+
             <div class="code-snippet-container">
                 <iframe
-                src="https://carbon.now.sh/embed/1rLb4GLnqksIdJDkQAsh"
+                src="https://carbon.now.sh/embed/anPDPoKQt7D7DgSKVJlU"
                 style="border:0; transform: scale(1); overflow:hidden;"
                 sandbox="allow-scripts allow-same-origin">
               </iframe>
             </div>
-
-
         </section>
     </div>
-<script src="/Components/Alert/alert.js"></script>
-<script src="/Docsite-js/navigation.js"></script>
-</body>
 
+    <script src="/Components/Modal/modal.js"></script>
+    <script src="/Docsite-js/navigation.js"></script>
+
+</body>
 </html>
