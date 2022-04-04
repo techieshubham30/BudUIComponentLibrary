@@ -17,6 +17,7 @@
 @import url('/Components/List/list.css');
 @import url('/Components/Modal/modal.css');
 @import url('/Components/Rating/rating.css');
+@import url('/Components/Grid/grid.css');
 
 *{
     margin: 0;
