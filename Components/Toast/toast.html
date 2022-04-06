@@ -37,6 +37,7 @@
             </div>
         </nav>
     </header>
+
     <div class="doc-site-container">
         <aside class="sidebar">
             <h2 class="sidebar-title">Components</h2>
@@ -61,7 +62,7 @@
 
                 </li>
                 <li class="sidebar-item-link">
-                    <a href="/Components/Image-Component/image.html"  class="current-item">Image</a>
+                    <a href="/Components/Image-Component/image.html">Image</a>
 
 
                 </li>
@@ -69,6 +70,7 @@
                     <a href="/Components/Input/input.html">Input</a>
 
                 </li>
+
                 <li class="sidebar-item-link">
                     <a href="/Components/TextUtilities/textutilities.html">Text Utilities</a>
 
@@ -85,14 +87,13 @@
                     <a href="/Components/Rating/rating.html">Rating</a>
 
                 </li>
-
                 <li class="sidebar-item-link">
                     <a href="/Components/Grid/grid.html">Grid</a>
 
                 </li>
-                
+
                 <li class="sidebar-item-link">
-                    <a href="/Components/Toast/toast.html">Toast</a>
+                    <a href="/Components/Toast/toast.html" class="current-item">Toast</a>
 
                 </li>
 
@@ -105,52 +106,40 @@
 
         <section class="component-container">
             <div class="intro">
-                <h1 class="component-title">Image</h1>
+                <h1 class="component-title">Toast</h1>
                 <p class="title-intro">
-                    Images can be responsive to fit the parent's width, and also can be customised to be round shaped.
+                    Toast can be used as as a tooltips/popups to show a message at the bottom of the screen.
                 </p>
-            </div>
+                <h2 class="component-example">Example of Toast</h2>
+                <p class="about-component">
+                    To use toast. Copy the code below and you are good to go.
+                </p>
+                <div class="component-display-container">
+                    <div class="toast toast-success">
+                        Success
+                        <span class="toast-close-button">
+                            <i class="fas fa-times"></i>
+                        </span>
+                    </div>
 
-            <h2 class="component-example">Example of Responsive Image</h2>
-            <p class="about-component">
-                You can add responsive-img class to make your image responsive. Copy the below the code and your are good to go.
-            </p>
+                    <div class="toast toast-warning">
+                        Warning
+                        <span class="toast-close-button">
+                            <i class="fas fa-times"></i>
+                        </span>
+                    </div>
 
-            <div class="component-display-container">
-                <img src="/images/plant1.jpg" alt="plant image" class="responsive-img">
-            </div>
-
-            <div class="code-snippet-container">
-                <iframe
-                src="https://carbon.now.sh/embed/vZezy0TVRdhwBv1fsUpT"
-                style="border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-              </iframe>
-            </div>
-
-            <h2 class="component-example">Example of Round Image</h2>
-            <p class="about-component">
-                To use rounded images addd round-img class. Round images comes with diffrent sizes, add class img-lg, img-mdm, img-sml for diffrent sizes.
-            </p>
-
-            <div class="component-display-container">
-                <img src="/images/avatar1.jpg" class="round-img img-lg">
-                <img src="/images/avatar1.jpg" class="round-img img-mdm">
-                <img src="/images/avatar1.jpg" class="round-img img-sml">
-            </div>
-
-            <div class="code-snippet-container">
-                <iframe
-                src="https://carbon.now.sh/embed/1klkhfajxN2MIP0XWVPo"
-                style="border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-              </iframe>
+                </div>
+                <div class="code-snippet-container">
+                    <iframe src="https://carbon.now.sh/embed/F2uC2JKEaUX9gPbUf3ib"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
             </div>
         </section>
 
-
     </div>
-<script src="/Docsite-js/navigation.js"></script>
 </body>
 
 </html>
