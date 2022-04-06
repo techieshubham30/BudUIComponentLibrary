@@ -1,0 +1,29 @@
+.toast {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 1rem 3rem 1rem 2rem;
+    color: var(--secondary-text-color);
+    position: relative;
+    border-radius: 0.4rem;
+}
+
+.toast-success {
+
+    background-color: var(--success-color);
+   
+}
+
+.toast-warning {
+    background-color: var(--warning-color);
+}
+
+.toast-close-button{
+     position: absolute;
+     right: 1rem;
+    
+}
+
+.toast-close-button:hover{
+    color:var(--light-black);
+}

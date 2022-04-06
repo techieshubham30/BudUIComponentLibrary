@@ -37,6 +37,7 @@
             </div>
         </nav>
     </header>
+
     <div class="doc-site-container">
         <aside class="sidebar">
             <h2 class="sidebar-title">Components</h2>
@@ -61,7 +62,7 @@
 
                 </li>
                 <li class="sidebar-item-link">
-                    <a href="/Components/Image-Component/image.html"  class="current-item">Image</a>
+                    <a href="/Components/Image-Component/image.html">Image</a>
 
 
                 </li>
@@ -69,6 +70,7 @@
                     <a href="/Components/Input/input.html">Input</a>
 
                 </li>
+
                 <li class="sidebar-item-link">
                     <a href="/Components/TextUtilities/textutilities.html">Text Utilities</a>
 
@@ -90,67 +92,69 @@
                     <a href="/Components/Grid/grid.html">Grid</a>
 
                 </li>
-                
+
                 <li class="sidebar-item-link">
                     <a href="/Components/Toast/toast.html">Toast</a>
 
                 </li>
-
                 <li class="sidebar-item-link">
-                    <a href="/Components/Navigation/navigation.html">Navigation</a>
+                    <a href="/Components/Navigation/navigation.html" class="current-item">Navigation</a>
 
                 </li>
+
             </ul>
         </aside>
-
         <section class="component-container">
             <div class="intro">
-                <h1 class="component-title">Image</h1>
+                <h1 class="component-title">Navigation</h1>
                 <p class="title-intro">
-                    Images can be responsive to fit the parent's width, and also can be customised to be round shaped.
+                    Navigation bar is used to navigate through the websites. 
                 </p>
-            </div>
+                <h2 class="component-example">Example of Navigation</h2>
+                <p class="about-component">
+                    To use navigation. Copy the code below and you are good to go.
+                </p>
 
-            <h2 class="component-example">Example of Responsive Image</h2>
-            <p class="about-component">
-                You can add responsive-img class to make your image responsive. Copy the below the code and your are good to go.
-            </p>
+                <div class="component-display-container" style="display: block;">
+                    <header class="header">
+                        <nav class="nav-bar">
+                            <div class="nav-left">
+                                <div class="nav-brand">
+                                    <span class="brand-title">Bud UI</span>
+                                </div>
 
-            <div class="component-display-container">
-                <img src="/images/plant1.jpg" alt="plant image" class="responsive-img">
-            </div>
+                            </div>
+                            <div class="nav-right">
+                                <ul class="list-non-bulit list">
+                                    <li class="list-item link-active">
+                                        <a href="#" class="nav-link">Home</a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a href="#" class="nav-link">About</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="hamburger">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </div>
+                        </nav>
+                    </header>
+                </div>
 
-            <div class="code-snippet-container">
-                <iframe
-                src="https://carbon.now.sh/embed/vZezy0TVRdhwBv1fsUpT"
-                style="border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-              </iframe>
-            </div>
+                <div class="code-snippet-container">
+                    <iframe src="https://carbon.now.sh/embed/zPSkURrS1kLwI1ofWfQs"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
 
-            <h2 class="component-example">Example of Round Image</h2>
-            <p class="about-component">
-                To use rounded images addd round-img class. Round images comes with diffrent sizes, add class img-lg, img-mdm, img-sml for diffrent sizes.
-            </p>
 
-            <div class="component-display-container">
-                <img src="/images/avatar1.jpg" class="round-img img-lg">
-                <img src="/images/avatar1.jpg" class="round-img img-mdm">
-                <img src="/images/avatar1.jpg" class="round-img img-sml">
-            </div>
-
-            <div class="code-snippet-container">
-                <iframe
-                src="https://carbon.now.sh/embed/1klkhfajxN2MIP0XWVPo"
-                style="border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-              </iframe>
             </div>
         </section>
-
-
     </div>
-<script src="/Docsite-js/navigation.js"></script>
+
 </body>
 
 </html>
